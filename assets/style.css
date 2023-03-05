@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+    #4C3570
+    #371370
+    #F0C335
+    #F2DE65
+*/
+
+:root {
+    --font-padrao: Lato, sans serif;
+    --font: Oswald, sans serif;
+}
+
+body {
+    font-family: var(--font);
+    background-color: #090312e6;
+}
+
+h1, h2 {
+    font-family: var(--font);
+    color: #f2de65;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#logo {
+    float: left;
+    margin: 15px;
+    font-family: var(--font-padrao);
+    font-size: 280%;
+}
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 4px;
+    font-size: var(--font-padrao);
+    width: 100%;
+}
+
+#menu li {
+    float: right;
+    list-style: none;
+    padding: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #f2de65;
+}
+
+#header-img {
+    background: url('../images/main-header.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+}
+
+/* teoria do apego / amor sujo de amor / enerfia masculina e feminina * /
+/* section our class */
+
+#about-us {
+    background-color: #fff;
+    height: 550px;
+    width: 50%;
+    text-align: justify;
+    letter-spacing: 1px;
+    padding: 10px;
+    color: #000000;
+
+}
+
+#about-us h1 {
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 10px;
+    font-size: xx-large;
+}
+
+#about-us p {
+    margin: 5px;
+    padding: 10px;
+    font-size: 140%;
+    font-family: var(--font-padrao);
+    letter-spacing: 2px;
+    line-height: 1.4em;
+}
+
+#about-us-img { 
+    background: url(/images/istockphoto-820212542-2048x2048.jpg) no-repeat center;
+    background-size: cover;
+    height: 570px;
+    width: 49%;
+    position: absolute;
+    right: 0;
+    top: 550px;
+}
+
+
+
+
