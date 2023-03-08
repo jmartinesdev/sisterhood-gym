@@ -5,16 +5,14 @@
     padding: 0;
 }
 
-/* 
-    #4C3570
-    #371370
-    #F0C335
-    #F2DE65
-*/
-
 :root {
     --font-padrao: Lato, sans serif;
     --font: Oswald, sans serif;
+    --cor01:#F0C335; 
+    --cor02: #4C3570;
+    --cor03: #F2DE65;
+    --cor04: #4C3570;
+    --cor05: #c3ae3a;
 }
 
 body {
@@ -60,19 +58,52 @@ h1, h2 {
     height: 550px;
     width: 100%;
 }
-
-#join-us {
-    height: 500px;
-    width: 50%;
-    padding: 30px;
+/*
+#container-text {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    margin-left: 30px;
 }
+*/
+
+#content-img {
+    background: url('/images/istockphoto-820212542-2048x2048.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    width: 50%;
+    height: 600px;
+    /*
+    position: absolute;
+    left: 800px;
+    top: 0;
+    */
+}
+
+/*
+#container-join {
+    height: 500px;  
+    position: relative;
+    top:50px;
+    margin: 10px;
+    padding-left: 100px;
+}
+*/
+
+#container-text {
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}
+
 
 .start-p {
     text-align: center;
     text-transform: uppercase;
     font-size: 70px;
     line-height: 70px;
-    padding: 45px;
     font-weight: 100;
 }
 
@@ -83,6 +114,7 @@ h1, h2 {
     text-align: center;
     margin-top: -70px;
     font-weight: bold;
+    padding-top: 70px;
 }
 
 .book-free {
@@ -93,14 +125,15 @@ h1, h2 {
     padding-top: 100px;
 }
 
-#border-bottom-left {
+.border-bottom-left {
     height: 120px;
     width: 120px;
     position: absolute;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
     margin: 10px;
-    bottom: -500px;
+    left: 0;
+    bottom: -10px;
 }
 
 #border-bottom-right {
@@ -109,8 +142,8 @@ h1, h2 {
     position: absolute;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
-    right: 750px;
-    bottom: -490px;
+    right: -80px;
+    bottom: 0;
 }
 
 #border-top-right {
@@ -120,7 +153,7 @@ h1, h2 {
     border-top: 1px solid black;
     border-left: 1px solid black; 
     margin: 10px;  
-    top: 570px;
+    top: -10px;
 }
 
 #border-top-left {
@@ -129,8 +162,7 @@ h1, h2 {
     position: absolute;
     border-top: 1px solid black;
     border-right: 1px solid black; 
-    top: 570px;
-    right: 750px;
+    right: -80px;
 }
 
 #button {
@@ -142,6 +174,8 @@ h1, h2 {
     box-sizing: border-box;
     margin: 0 auto;
     margin-top: 100px;
+    position: relative;
+    bottom: 50px;
 }
 
 a {
@@ -153,16 +187,72 @@ a {
     font-size: 17px;
 }
 
-#about-us-img { 
-    background: url(/images/istockphoto-820212542-2048x2048.jpg) no-repeat center;
-    background-size: cover;
-    height: 623px;
-    width: 48%;
-    margin: 0px 20px 0px 30px;
-    position: absolute;
-    top: 568px;
-    right: 0;
+section {
+    margin: 20px, 10px;
 }
+
+section h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* our class */
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 800px;
+    margin-top: 20px;
+    background-color: black;
+}
+
+.our-class {
+    height: 500px;
+    width: 33%;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    color: #c3ae3a;
+    padding: 10px;
+    text-align: justify;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+img {
+    max-width: 90%;
+    height: 350px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.pilates-img {
+    max-width: 90%;
+    height: 350px;
+}
+
+.zumba-class {
+    max-width: 90%;
+    height: 350px;
+}
+
+
+
+
 
 
 
