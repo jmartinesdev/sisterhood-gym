@@ -58,14 +58,6 @@ h1, h2 {
     height: 550px;
     width: 100%;
 }
-/*
-#container-text {
-    width: 600px;
-    height: 600px;
-    position: relative;
-    margin-left: 30px;
-}
-*/
 
 #content-img {
     background: url('/images/istockphoto-820212542-2048x2048.jpg');
@@ -75,29 +67,21 @@ h1, h2 {
     
     width: 50%;
     height: 600px;
-    /*
-    position: absolute;
-    left: 800px;
-    top: 0;
-    */
 }
 
-/*
-#container-join {
-    height: 500px;  
-    position: relative;
-    top:50px;
-    margin: 10px;
-    padding-left: 100px;
-}
-*/
-
-#container-text {
+#container-main {
     display: flex;
     justify-content: space-between;
     height: 600px;
+    align-items: center;
+    padding-top: 40px;
 }
 
+.container-join {
+    text-align: center;    
+    width: 50%;
+    height: 600px;
+}
 
 .start-p {
     text-align: center;
@@ -105,12 +89,14 @@ h1, h2 {
     font-size: 70px;
     line-height: 70px;
     font-weight: 100;
+    padding: 30px;
 }
 
 .bold-text {
     font-weight: 800;
     text-transform: uppercase;
     font-size: 70px;
+    color: black;
     text-align: center;
     margin-top: -70px;
     font-weight: bold;
@@ -160,8 +146,8 @@ h1, h2 {
     height: 120px;
     width: 120px;
     position: absolute;
-    border-top: 1px solid black;
-    border-right: 1px solid black; 
+    border-top: 1px solid white;
+    border-right: 1px solid white; 
     right: -80px;
 }
 
@@ -191,7 +177,7 @@ section {
     margin: 20px, 10px;
 }
 
-section h1 {
+section h2 {
     margin: 0px;
     padding: 0px;
     font-size: 50px;
@@ -210,33 +196,34 @@ section h1 {
 }
 
 .our-class {
-    height: 500px;
+    height: 700px;
     width: 33%;
+    font-size: 30px;
 }
 
-h2 {
+.heading-our-classes {
     text-align: center;
-    padding: 10px;
+    font-size: 30px;
 }
 
 p {
     color: #c3ae3a;
-    padding: 10px;
+    padding: 20px;
     text-align: justify;
-    font-size: 22px;
+    font-size: 20px;
+    line-height: 40px;
     margin-top: 10px;
 }
 
 img {
-    max-width: 90%;
-    height: 350px;
+    max-width: 33%%;
+    height: 250px;
     border-radius: 50%;
     margin: 0 auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
 
-    border: 2px solid black;
     padding: 10px;
 }
 
@@ -250,6 +237,22 @@ img {
     height: 350px;
 }
 
+.book-class {
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 100px;
+    bottom: 50px;
+}
+
+.book-class a {
+    color: white;
+    font-size: 15px;
+    justify-content: center;
+}
 
 
 
