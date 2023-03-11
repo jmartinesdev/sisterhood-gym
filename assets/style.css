@@ -31,6 +31,7 @@ h1, h2 {
     margin: 15px;
     font-family: var(--font-padrao);
     font-size: 280%;
+    color: white;
 }
 
 #menu {
@@ -48,7 +49,7 @@ h1, h2 {
 
 #menu a {
     text-decoration: none;
-    color: #f2de65;
+    color: white;
 }
 
 #header-img {
@@ -70,14 +71,15 @@ h1, h2 {
 }
 
 #container-main {
-    display: flex;
+
     justify-content: space-between;
     height: 600px;
     align-items: center;
-    padding-top: 40px;
+    padding: 40px;
 }
 
 .container-join {
+    float: left;
     text-align: center;    
     width: 50%;
     height: 600px;
@@ -111,59 +113,6 @@ h1, h2 {
     padding-top: 100px;
 }
 
-.border-bottom-left {
-    height: 120px;
-    width: 120px;
-    position: absolute;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
-    margin: 10px;
-    left: 0;
-    bottom: -10px;
-}
-
-#border-bottom-right {
-    height: 120px;
-    width: 120px;
-    position: absolute;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    right: -80px;
-    bottom: 0;
-}
-
-#border-top-right {
-    height: 120px;
-    width: 120px;
-    position: absolute;
-    border-top: 1px solid black;
-    border-left: 1px solid black; 
-    margin: 10px;  
-    top: -10px;
-}
-
-#border-top-left {
-    height: 120px;
-    width: 120px;
-    position: absolute;
-    border-top: 1px solid white;
-    border-right: 1px solid white; 
-    right: -80px;
-}
-
-#button {
-    width: 110px;
-    height: 60px;
-    text-align: center;
-    padding: 20px;
-    border: 1px solid black;
-    box-sizing: border-box;
-    margin: 0 auto;
-    margin-top: 100px;
-    position: relative;
-    bottom: 50px;
-}
-
 a {
     text-align: center;
     text-decoration: none;
@@ -171,6 +120,25 @@ a {
     color: black;
     letter-spacing: 1px;
     font-size: 17px;
+}
+
+.book-class-main {
+    color: #c3ae3a;
+    border: 1px solid #c3ae3a;
+    background-color: white;
+    padding: 15px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 6px;
+    margin: 20px;
+    position: relative;
+    left: 0;
+    top: 80px;
+}
+
+.book-class a {
+    color: #c3ae3a;
 }
 
 section {
@@ -187,16 +155,20 @@ section h2 {
 /* our class */
 
 #container {
-    display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 800px;
-    margin-top: 20px;
-    background-color: black;
+    height: 120vh;
+    margin-top: x;
+    background-color: white;
+}
+
+.heading {
+    padding-bottom: 50px;
 }
 
 .our-class {
-    height: 700px;
+    float:left;
+    height: 400px;
     width: 33%;
     font-size: 30px;
 }
@@ -207,16 +179,16 @@ section h2 {
 }
 
 p {
-    color: #c3ae3a;
+    color: black;
     padding: 20px;
     text-align: justify;
     font-size: 20px;
-    line-height: 40px;
+    line-height: 35px;
     margin-top: 10px;
 }
 
-img {
-    max-width: 33%%;
+.img-our-class {
+    max-width: 100%;
     height: 250px;
     border-radius: 50%;
     margin: 0 auto;
@@ -227,32 +199,55 @@ img {
     padding: 10px;
 }
 
-.pilates-img {
-    max-width: 90%;
-    height: 350px;
-}
-
-.zumba-class {
-    max-width: 90%;
-    height: 350px;
-}
-
 .book-class {
-    width: 150px;
-    height: 60px;
-    text-align: center;
-    border: 2px solid white;
-    box-sizing: border-box;
-    margin: 0 auto;
-    margin-top: 100px;
-    bottom: 50px;
+    color: #c3ae3a;
+    border: 1px solid #c3ae3a;
+    padding: 15px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 6px;
+    margin: 20px;
+    background-color: white;
 }
 
 .book-class a {
-    color: white;
-    font-size: 15px;
-    justify-content: center;
+    color: #c3ae3a;
 }
+
+button {
+    position: relative;
+    left: 120px;
+}
+
+#container-about-us {
+    height: 150vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/about-us.jpeg');
+}
+
+#container-about-us h2 {
+    padding: 30px;
+}
+
+#container-about-us p {
+    color: white;
+    font-family: var(--font-padrao);
+    font-size: 30px;
+    text-align: left;
+    line-height: 45px;
+    text-align: justify;
+}
+
+.sister-p {
+    box-sizing: border-box;
+    border: 2px solid #c3ae3a;
+    border-radius: 8px;
+    position: relative;
+    top: 150px;
+}
+
+
 
 
 
