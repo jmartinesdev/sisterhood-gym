@@ -9,9 +9,7 @@
     --font-padrao: Lato, sans serif;
     --font: Oswald, sans serif;
     --cor01:#F0C335; 
-    --cor02: #4C3570;
     --cor03: #F2DE65;
-    --cor04: #4C3570;
     --cor05: #c3ae3a;
 }
 
@@ -73,7 +71,7 @@ h1, h2 {
 #container-main {
 
     justify-content: space-between;
-    height: 600px;
+    height: 500px;
     align-items: center;
     padding: 40px;
 }
@@ -157,13 +155,14 @@ section h2 {
 #container {
     align-items: center;
     justify-content: space-around;
-    height: 120vh;
+    height: 130vh;
     margin-top: x;
     background-color: white;
 }
 
 .heading {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
+    padding-top: 90px;
 }
 
 .our-class {
@@ -250,6 +249,60 @@ button {
     padding: 50px;
 }
 
+/* cards */
+
+
+#container-card {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.card-body {
+    padding: 0 5%;
+}
+
+.card {
+    height: 90vh;
+    width: 400px;
+    text-align: center;
+    border: 1.5px solid #c3ae3a;
+    border-radius: 10px;    
+}
+
+.card-img-top {
+   height: 50vh;
+   width: 100%;
+   align-items: center;
+   border-radius: 9px;
+   border-bottom-left-radius: 0;
+   border-bottom-right-radius: 0;
+}
+
+.card-title {
+    color: #c3ae3a;
+    font-size: 25px;
+}
+
+button a {
+    color: #c3ae3a;
+}
+
+.btn-our-class {
+    position: relative;
+    left: 5px;
+    bottom: 15px;
+
+    color: #c3ae3a;
+    border: 1px solid #c3ae3a;
+    padding: 10px 20px;
+    cursor: pointer;
+    height: 45px;
+    border-radius: 6px;
+    margin: 20px;
+    background-color: white;
+}
 
 
 
