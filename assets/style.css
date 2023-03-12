@@ -26,15 +26,16 @@ h1, h2 {
 
 #logo {
     float: left;
-    margin: 15px;
+    margin: 13px;
+    padding-left: 20px;
     font-family: var(--font-padrao);
-    font-size: 280%;
+    font-size: 250%;
     color: #c3ae3a;
 }
 
 #menu {
-    font-size: 120%;
-    letter-spacing: 4px;
+    font-size: 80%;
+    letter-spacing: 3px;
     font-size: var(--font-padrao);
     width: 100%;
 }
@@ -42,16 +43,18 @@ h1, h2 {
 #menu li {
     float: right;
     list-style: none;
-    padding: 20px;
+    padding: 18px;
+    margin-top: 10px;
 }
 
 #menu a {
     text-decoration: none;
     color: #c3ae3a;
+    padding-right: 15px;
 }
 
 #header-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/main-header.jpg') no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/main-header.jpg') no-repeat;
     background-position: center;
     background-size: cover;
     height: 500px;
@@ -66,6 +69,7 @@ h1, h2 {
     
     width: 50%;
     height: 600px;
+    border-radius: 5%;
 }
 
 #container-main {
@@ -254,6 +258,54 @@ p {
     padding: 50px;
 }
 
+/* second page our classes*/
+
+#container-crossfit {
+    height: 75vh;
+    width: 100%;
+}
+
+#text-second-page h3 {
+    font-size: 40px;
+    padding: 10px;
+    color: #c3ae3a;
+}
+
+#text-second-page p {
+    text-align: justify;
+}
+
+#text-second-page {
+    height: 50vh;
+    width: 600px;
+    padding: 20px;
+}
+
+.text-second-page p {
+    height: 400px;
+    width: 100%;
+}
+
+#container-crossfit {
+    position: absolute;
+}
+
+.second-page-img {
+    position: absolute ;
+    right: 0;
+    top: 0;
+    right: 100px;
+    height: 450px;
+    width: 450px;
+
+    padding-top: 40px;
+}
+
+#container-yoga {
+    background-color: blue;
+    width: 50%;
+}
+
 
 
 
@@ -278,37 +330,6 @@ p {
 
 /* teoria do apego / amor sujo de amor / enerfia masculina e feminina * /
 /* section our class 
-
-#about-us-text {
-    text-align: center;
-    padding: 10px;
-    font-size: 230%;
-    letter-spacing: 10px;
-    position: relative;
-}
-
-#about-us {
-    height: 508px;
-    width: 50%;
-    text-align: justify;
-    letter-spacing: 1px;
-    color: #000000;
-}
-
-#about-us p {
-    padding: 10px;
-    font-size: 149%;
-    font-family: var(--font-padrao);
-    letter-spacing: 2px;
-    line-height: 1.5em;
-}
-
-
-strong {
-    text-transform: uppercase;
-    color: #c3ae3a;
-}
-*/
 
 
 
