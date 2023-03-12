@@ -196,7 +196,7 @@ button a {
 .btn-our-class {
     position: relative;
     left: 5px;
-    bottom: 15px;
+    bottom: -15px;
 
     color: #c3ae3a;
     border: 1px solid #c3ae3a;
@@ -305,6 +305,11 @@ p {
     background-color: blue;
     width: 50%;
 }
+
+#footer-container {
+}
+
+
 
 
 
