@@ -61,6 +61,8 @@ h1, h2 {
     width: 100%;
 }
 
+/* Main */
+
 #content-img {
     background: url('/images/istockphoto-820212542-2048x2048.jpg');
     background-repeat: no-repeat;
@@ -75,9 +77,11 @@ h1, h2 {
 #container-main {
 
     justify-content: space-between;
-    height: 500px;
+    height: 85vh;
     align-items: center;
     padding: 40px;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.791);
 }
 
 .container-join {
@@ -143,10 +147,6 @@ a {
     color: #c3ae3a;
 }
 
-section {
-    margin: 20px, 10px;
-}
-
 section h2 {
     margin: 0px;
     padding: 0px;
@@ -210,7 +210,7 @@ button a {
 
 .heading {
     padding-bottom: 20px;
-    padding-top: 90px;
+    padding-top: 30px;
 }
 
 p {
@@ -243,7 +243,7 @@ p {
 
 .about-us-text {
     width: 100%;
-    height: 50vh;
+    height: 70vh;
 }
 
 .about-us-text h3 {
@@ -251,7 +251,7 @@ p {
     text-transform: uppercase;
     font-size: 35px;
     color: #c3ae3a;
-    padding: 40px 40px 1px 40px;
+    padding: 40px 40px 25px 40px;
 }
 
 .about-us-text p {
@@ -261,7 +261,7 @@ p {
 /* second page our classes*/
 
 #container-crossfit {
-    height: 75vh;
+    height: 80vh;
     width: 100%;
 }
 
@@ -287,7 +287,7 @@ p {
 }
 
 #container-crossfit {
-    position: absolute;
+    position: relative;
 }
 
 .second-page-img {
@@ -301,12 +301,56 @@ p {
     padding-top: 40px;
 }
 
-#container-yoga {
-    background-color: blue;
-    width: 50%;
+/* footer */
+
+#footer-flex {
+    display: flex;
+    background-color: #00080A;
 }
 
-#footer-container {
+#footer-flex div {
+    width: 33%;
+}
+
+.social-medias {
+    text-align: center;
+    padding-top: 90px;
+}
+
+.social-medias > li {
+    display: inline;
+    list-style: none;
+    padding: 60px;
+}
+
+.social-medias i {
+    color: var(--cor05);
+    justify-content: space-between;
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+li {
+    list-style: none;
+    font-size: 16px;
+    padding: 18px;
+    text-align: center;
+}
+
+#footer-flex h2 {
+    font-size: 28px;
+    letter-spacing: 3px;
+    padding-top: 10px;
+}
+
+#footer-flex p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.636);
+}
+
+.padd-text {
+    padding-top: 30px;
+    line-height: 40px;
 }
 
 
