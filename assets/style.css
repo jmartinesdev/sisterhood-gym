@@ -75,7 +75,6 @@ h1, h2 {
 }
 
 #container-main {
-
     justify-content: space-between;
     height: 85vh;
     align-items: center;
@@ -260,45 +259,49 @@ p {
 
 /* second page our classes*/
 
+
 #container-crossfit {
     height: 80vh;
-    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
-#text-second-page h3 {
-    font-size: 40px;
-    padding: 10px;
-    color: #c3ae3a;
+.text-second-page {
+    width: 50%;
 }
 
-#text-second-page p {
-    text-align: justify;
-}
-
-#text-second-page {
+.text-second-page {
     height: 50vh;
     width: 600px;
     padding: 20px;
 }
 
-.text-second-page p {
-    height: 400px;
-    width: 100%;
+.text-second-page h3 {
+    font-size: 40px;
+    padding: 10px;
+    color: #c3ae3a;
 }
 
-#container-crossfit {
-    position: relative;
+.text-second-page p {
+    padding: 10px;
 }
 
 .second-page-img {
-    position: absolute ;
-    right: 0;
-    top: 0;
-    right: 100px;
     height: 450px;
     width: 450px;
-
     padding-top: 40px;
+}
+
+#container-yoga {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around; 
+}
+
+#container-zumba {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
 }
 
 /* footer */
