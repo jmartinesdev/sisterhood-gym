@@ -80,18 +80,6 @@ a:hover {
     border-radius: 8px;
 }
 
-@media screen and (max-width: 950px) {  
-    .menu {
-        clear: left;
-        float: left;
-        margin-bottom: 5px;
-    }   
-
-    .logo, h1 {
-        justify-content: center;
-    }
-}
-
 /* Main Section */
 
 #title {
@@ -102,15 +90,6 @@ a:hover {
     top: 75%;
     left: 35%;
     color: white;
-}
-
-@media screen and (max-width: 950px) {
-    #title {
-        float: left;
-        font-size: 20px;
-        line-height: 20px;
-    }
-    
 }
 
 #title a {
