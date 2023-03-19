@@ -86,9 +86,8 @@ a:hover {
     position: absolute;
     z-index: 9999;
     font-size: 60px;
-    left: 40%;
-    top: 75%;
     left: 35%;
+    top: 75%;
     color: white;
 }
 
@@ -125,10 +124,12 @@ a:hover {
 /* our class - CARDS */
 
 #container-card {
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: space-around;
     justify-items: center;
+    margin: 2rem 0;
+    flex-wrap: wrap ;
 }
 
 .heading {
@@ -146,7 +147,7 @@ a:hover {
 }
 
 .card {
-    height: 90vh;
+    height: 80vh;
     width: 400px;
     text-align: center;
     border: 1.5px solid #c3ae3a;
@@ -154,12 +155,20 @@ a:hover {
 }
 
 .card-img-top {
-   height: 50vh;
+   height: auto;
    width: 100%;
    align-items: center;
    border-radius: 9px;
    border-bottom-left-radius: 0;
    border-bottom-right-radius: 0;
+}
+
+@media screen and (max-width: 768px){
+    .card {
+    height: 100%;
+    width: 100%;
+    padding: 2rem 0;
+    }
 }
 
 .card-title {
@@ -238,55 +247,7 @@ p {
     text-align: justify;
 }
 
-/* FOOTER */
-
-#footer-flex {
-    display: flex;    
-    background-color: #00080A;
-}
-
-.footer-container {
-    display: inline-block;
-    text-align: center;
-}
-
-#footer-flex div {
-    width: 33%;
-}  
-
-.social-medias > li {
-    display: inline;
-    list-style: none;
-    padding: 40px;
-}
-
-.social-medias i {
-    color: var(--cor05);
-    justify-content: space-between;
-    font-size: 25px;
-    padding-top: 60px;
-}
-
-li {
-    list-style: none;
-    font-size: 16px;
-    padding: 18px;
-}
-
-#footer-flex h2 {
-    font-size: 28px;
-    letter-spacing: 4px;
-}
-
-#footer-flex p {
-    text-align: center;
-    color: rgba(255, 255, 255, 0.636);
-    line-height: 40px;
-}
-
-
 /* second page our classes*/
-
 
 #container-crossfit {
     height: 80vh;
@@ -332,87 +293,92 @@ li {
     justify-content: space-around;
 }
 
+/* Form */
 
+#img-form {
+    background: url('/images/header5.jpg') center center;
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
-/* footer */
-/*
+.sec-form {
+    margin-bottom: 30px;
+}
+
+.form-contact {
+    position: relative;
+    text-align: center;
+    font-family: var(--font-padrao);
+    font-size: 1.3rem;
+    padding: 5px;
+}
+
+input {
+    width: 350px;
+    height: 25px;
+    border: 1px solid #c3ae3a;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 350px;
+    height: 150px;
+    border: 1px solid #c3ae3a;
+    border-radius: 5px;
+}
+
+.btn-form {
+    width: 80px;
+    height: 1.5rem;
+    margin-top: 10px;
+    border: 1px solid #c3ae3a;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+
 #footer-flex {
-    display: flex;
+    display: flex;    
     background-color: #00080A;
 }
 
-#footer-flex div {
-    width: 33%;
+.footer-container {
+    display: inline-block;
+    text-align: center;
 }
 
-.social-medias {
-    text-align: center;
-    padding-top: 90px;
-}
+#footer-flex div {
+    width: 30%;
+}  
 
 .social-medias > li {
     display: inline;
     list-style: none;
-    padding: 60px;
+    padding: 40px;
 }
 
 .social-medias i {
     color: var(--cor05);
     justify-content: space-between;
     font-size: 25px;
-    padding-top: 25px;
+    padding-top: 60px;
 }
 
 li {
     list-style: none;
     font-size: 16px;
     padding: 18px;
-    text-align: center;
 }
 
 #footer-flex h2 {
     font-size: 28px;
-    letter-spacing: 3px;
-    padding-top: 10px;
+    letter-spacing: 4px;
 }
 
 #footer-flex p {
     text-align: center;
     color: rgba(255, 255, 255, 0.636);
-}
-
-.padd-text {
-    padding-top: 30px;
     line-height: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* teoria do apego / amor sujo de amor / enerfia masculina e feminina * /
-/* section our class 
-
-
-
