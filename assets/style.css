@@ -17,19 +17,12 @@ body {
     font-family: var(--font);
 }
 
-h1, h2, h3 {
-    font-family: var(--font);
-    color: #c3ae3a;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}
-
 #header {
     position: fixed;
     z-index: 999;
     width: 100%;
-    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.333) 100%);
-    height: 80px;
+    background-color: rgba(0, 0, 0, 0.918);
+    height: 70px;
 }
 
 nav {
@@ -77,7 +70,17 @@ a {
 a:hover {
     background-color: #c3ae3a;
     color: black;
-    border-radius: 8px;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 600px) {
+    #header {
+        height: auto;
+    }
+
+    .menu {
+        float: left;
+    }
 }
 
 /* Main Section */
@@ -88,26 +91,15 @@ a:hover {
     font-size: 60px;
     left: 35%;
     top: 75%;
-    color: white;
-}
-
-#title a {
-    font-size: 25px;
-    font-weight: 300;
-    border: 3px solid #c3ae3a;
-    border-radius: 8px;
-    padding: 15px;
-    align-content: center;
-    margin: 140px;
 }
  
-#title p {
+#title h2 {
     text-transform: uppercase;
     font-family: var(--font-padrao);
     font-weight: 600;
     font-size: 70px;
-    line-height: 100%;
-    color: white;
+    line-height: 80px;
+    color: #c3ae3a;
 }
 
 .cover-img {
@@ -121,10 +113,18 @@ a:hover {
     z-index: 0;
 }
 
+@media screen and (max-width: 600px) {
+    .cover-img {
+        margin: auto;
+        padding: 30px;
+
+    }
+}
+
 /* our class - CARDS */
 
 #container-card {
-    height: 80vh;
+    height: 100%;
     display: flex;
     justify-content: space-around;
     justify-items: center;
@@ -132,10 +132,14 @@ a:hover {
     flex-wrap: wrap ;
 }
 
+#container-card h3 {
+    font-family: var(--font);
+}
+
 .heading {
     padding-bottom: 20px;
     padding-top: 30px;
-    font-family: var(--font);
+    font-family: var(--font-padrao);
     color: #c3ae3a;
     text-transform: uppercase;
     font-size: 40px;
@@ -148,7 +152,7 @@ a:hover {
 
 .card {
     height: 80vh;
-    width: 400px;
+    width: 30%;
     text-align: center;
     border: 1.5px solid #c3ae3a;
     border-radius: 10px;    
@@ -161,14 +165,6 @@ a:hover {
    border-radius: 9px;
    border-bottom-left-radius: 0;
    border-bottom-right-radius: 0;
-}
-
-@media screen and (max-width: 768px){
-    .card {
-    height: 100%;
-    width: 100%;
-    padding: 2rem 0;
-    }
 }
 
 .card-title {
@@ -210,6 +206,10 @@ p {
 
 /* ABOUT US */
 
+#about-us {
+    height: 10%;
+}
+
 #container-about-us {
     height: 60vh;
     width: 100%;
@@ -219,15 +219,14 @@ p {
     background-position: center;
 }
 
-#container-about-us h2 {
-    padding: 10px;
-    text-align: center;
-    font-size: 50px;
-}
-
 .about-us-text {
     width: 100%;
-    height: 70vh;
+    height: 100%;
+}
+
+#about-us h2 {
+    text-align: center;
+    font-size: 45px;
 }
 
 .about-us-text h3 {
@@ -245,12 +244,13 @@ p {
     line-height: 35px;
     font-size: 120%;
     text-align: justify;
+    padding-bottom: 70px;
 }
 
 /* second page our classes*/
 
 #container-crossfit {
-    height: 80vh;
+    height: auto;
     display: flex;
     justify-content: space-around;
 }
@@ -260,7 +260,7 @@ p {
 }
 
 .text-second-page {
-    height: 50vh;
+    height: auto;
     width: 600px;
     padding: 20px;
 }
@@ -282,29 +282,68 @@ p {
 }
 
 #container-yoga {
-    height: 80vh;
+    height: auto;
     display: flex;
     justify-content: space-around; 
 }
 
 #container-zumba {
-    height: 75vh;
+    height: 100%;
     display: flex;
     justify-content: space-around;
 }
 
-/* Form */
+@media screen and (max-width: 600px) {
+    #container-crossfit {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 20px;
+        text-align: center;
+    }
 
-#img-form {
-    background: url('/images/header5.jpg') center center;
-    height: 90vh;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
+    #container-crossfit p {
+        margin: auto;
+        padding: 30px;
+    }
+
+    #container-yoga {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #container-yoga p {
+        margin: auto;
+        padding: 40px;
+    }
+
+    #container-zumba {
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    #container-zumba p {
+        margin: auto;
+    }
+
+    br {
+        width: 50%;
+    }
 }
 
+/* Form */
+
 .sec-form {
+    height: 100%;
+    margin: auto;
     margin-bottom: 30px;
+}
+
+.form-contact h2 {
+    font-size: 40px;
+    padding-bottom: 30px;
 }
 
 .form-contact {
@@ -335,6 +374,10 @@ textarea {
     margin-top: 10px;
     border: 1px solid #c3ae3a;
     border-radius: 5px;
+    background-color: #c3ae3a;
+    color: black;
+    font-family: var(--font-padrao);
+    font-size: 1rem;
 }
 
 /* FOOTER */
@@ -381,4 +424,23 @@ li {
     text-align: center;
     color: rgba(255, 255, 255, 0.636);
     line-height: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        height: auto;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .card {
+        height: 100%;
+        width: 100%;
+        padding: 2rem 0;
+    }
+
+    #container-card {
+        height: fit-content;
+    }
 }
