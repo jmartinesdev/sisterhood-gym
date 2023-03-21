@@ -81,6 +81,22 @@ a:hover {
     .menu {
         float: left;
     }
+
+    a {
+        float: left;
+        font-size: 13px;
+    }
+
+    .logo {
+        display: inline;
+        text-align: center;
+        padding-left: 50px;
+    }
+
+     {
+        background-color: red;
+        padding-right: 50px;
+    }
 }
 
 /* Main Section */
@@ -297,13 +313,11 @@ p {
     #container-crossfit {
         flex-direction: column;
         flex-wrap: wrap;
-        padding: 20px;
         text-align: center;
     }
 
     #container-crossfit p {
-        margin: auto;
-        padding: 30px;
+        padding: 60px;
     }
 
     #container-yoga {
@@ -315,7 +329,7 @@ p {
 
     #container-yoga p {
         margin: auto;
-        padding: 40px;
+        padding: 60px;
     }
 
     #container-zumba {
@@ -326,6 +340,7 @@ p {
 
     #container-zumba p {
         margin: auto;
+        padding: 60px;
     }
 
     br {
@@ -424,6 +439,44 @@ li {
     text-align: center;
     color: rgba(255, 255, 255, 0.636);
     line-height: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    #footer-flex {  
+        background-color: red;
+        flex-direction: column;
+        font-size: 10p;
+        padding: 80px;
+        align-items: center;
+    }  
+
+    .footer-container li {
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    #footer-flex h2 {
+        font-size: 30px;
+        text-align: center;
+        float: left;
+    }
+
+    #footer-container ul p {
+        padding-left: 40%;
+    }
+
+    .info-footer {
+        text-align: center;
+    }
+
+    .social-medias {
+        display: flex;
+        padding-right: 50%;
+    }
+
+    .social-medias li {
+        padding-left: 3%;
+    }
 }
 
 @media screen and (max-width: 600px) {
