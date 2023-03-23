@@ -73,30 +73,28 @@ a:hover {
     border-radius: 4px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 375px) and (max-width: 600px) {
     #header {
         height: auto;
+        width: 100%;
     }
 
     .menu {
-        float: left;
+        margin: auto;
     }
 
     a {
         float: left;
         font-size: 13px;
+        margin: 10px;
     }
 
     .logo {
         display: inline;
         text-align: center;
-        padding-left: 50px;
+        margin-left: 40%;
     }
 
-     {
-        background-color: red;
-        padding-right: 50px;
-    }
 }
 
 /* Main Section */
@@ -129,11 +127,10 @@ a:hover {
     z-index: 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 375px) and (max-width: 600px) {
     .cover-img {
         margin: auto;
         padding: 30px;
-
     }
 }
 
@@ -243,6 +240,10 @@ p {
 #about-us h2 {
     text-align: center;
     font-size: 45px;
+    color: #c3ae3a;
+    font-family: var(--font);
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 .about-us-text h3 {
@@ -309,27 +310,38 @@ p {
     justify-content: space-around;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 375px) and (max-width: 600px) {
+
+    #section-second-page {
+        justify-content: center;
+        width: 660px;
+    }
+
     #container-crossfit {
         flex-direction: column;
         flex-wrap: wrap;
         text-align: center;
+        padding: 30px;
     }
 
-    #container-crossfit p {
-        padding: 60px;
+    .second-page-img {
+    }
+
+    .text-second-page {
+        padding: 10px;
+        font: 3.3rem;
     }
 
     #container-yoga {
         flex-direction: column;
         flex-wrap: wrap;
-        padding: 20px;
+        padding: 10px;
         text-align: center;
     }
 
     #container-yoga p {
         margin: auto;
-        padding: 60px;
+        padding: 30px;
     }
 
     #container-zumba {
@@ -340,11 +352,13 @@ p {
 
     #container-zumba p {
         margin: auto;
-        padding: 60px;
+        padding: 30px;
     }
 
-    br {
-        width: 50%;
+    hr {
+        width: 80%%;
+        color: #c3ae3a;
+        margin: 30px;
     }
 }
 
@@ -441,52 +455,84 @@ li {
     line-height: 40px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 375px) and (max-width: 600px) {
     #footer-flex {  
-        background-color: red;
         flex-direction: column;
-        font-size: 10p;
-        padding: 80px;
+        font-size: 8px;
         align-items: center;
+        margin-right: -60px;
     }  
+
+    .footer-container {
+        height: 60vh;
+    }
+
+    .footer-container-address {
+        position: relative;
+        left: 40px;
+    }
+
+    .footer-container-address h2 {
+        padding: 20px;
+    }
+
+    .footer-container h2 {
+        padding: 10px;
+    }
 
     .footer-container li {
         text-align: center;
-        flex-wrap: wrap;
+    }
+
+    .social-medias ul {
+        position: relative;
+        left: 50px;
+        background-color: red;
+    }
+
+    #float-left {
+        text-align: center;
+    }
+
+    #float-right {
+        position: relative;
+        right: 150px;
+        top: 20px;
+    }
+
+    #float-right-footer {
+        position: relative;
+        bottom: 150px;
+        left: 130px;
     }
 
     #footer-flex h2 {
         font-size: 30px;
         text-align: center;
-        float: left;
-    }
-
-    #footer-container ul p {
-        padding-left: 40%;
-    }
-
-    .info-footer {
-        text-align: center;
+        float: left; 
     }
 
     .social-medias {
-        display: flex;
-        padding-right: 50%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .social-medias li {
-        padding-left: 3%;
+        position: relative;
+        right: 110px;
+        margin-bottom: 120px;
+        height: 150px;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 375px) and (max-width: 600px) {
     nav {
         height: auto;
         float: left;
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (min-width: 375px) and (max-width: 600px) {
     .card {
         height: 100%;
         width: 100%;
