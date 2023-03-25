@@ -14,21 +14,21 @@
 </head>
 
 <body>
-    <header>
-        <div id="header">
-            <a href="index.html">
-                <h1 class="logo">sisterhood</h1>
-            </a>
-            <nav>
-                <ul class="menu">
-                    <li><a href="#footer-flex">Contact</a></li>
-                    <li><a href="#about-us">About Us</a></li>
-                    <li><a href="#ourclasses">Our Classes</a></li>
-                    <li><a href="index.html">Home</a></li>
-                </ul>
-            </nav>
+    <section class="top-nav">
+        <div>
+          Sisterhood Gym
         </div>
-    </header>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+      </label>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#ourclasses">Our Classes</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#footer-flex">Contact</a></li>
+        </ul>
+      </section>
     <section>
         <div id="container-img">
             <div id="title">
@@ -64,10 +64,10 @@
                 </p>
             </div>
             <div id="container-img-crossfit">
-                <img class="second-page-img" src="/images/bodypump2.jpeg" alt="">
+                <img class="second-page-img" src="/images/crossfit-second-page.jpg" alt="">
             </div>
         </div>
-        <hr>
+        <hr>    
         <div id="container-yoga">
             <div id="container-img-yoga">
                 <img class="second-page-img" src="/images/Yoga00.jpg" alt="Women doing Yoga">
@@ -101,53 +101,53 @@
                         A ZUMBA class combines fast and slow rhythms that tone and sculpt the body. The foundation of training to achieve cardiovascular and muscle toning benefits is aerobic gymnastics.
                     </p>
             </div>
-            <div>
-                <img class="second-page-img" src="./images/zumba01.jpg" alt="group in a zumba class">
+            <div id="container-img-zumba">
+                <img class="second-page-img" src="./images/zumba-second-page.jpg" alt="group in a zumba class">
             </div>
         </div>
     </section>
 
     <footer id="footer-flex">
-        <div>
+        <div class="footer-container-address">
             <ul>
                 <li>
                     <h2>SISTERHOOD</h2>
-                    <p>
+                    <p id="float-left" class="info-footer">
                         123 Temple Bar, Dublin 2
                         <br>
                         Dublin, Ireland.
                         <br>
-                        Phone: 123 456 789
+                        Phone: 123 456
                     </p>
                 </li>
             </ul>
         </div>
-        <div>
+        <div class="footer-container">
             <ul>
                 <li>
                     <h2>TIME TABLE</h2>
-                    <p class="padd-text">
-                        Mon - Fri 06:00 to 11:00pm
-                        <br>
+                    <p class="info-footer">
+                        Mon-Fri 06:00 to 11:00pm
+                    <br>   
                         Sat - Sun 06:00 to 18:00pm
                     </p>
                 </li>
             </ul>
         </div>
-        <div>
-            <ul class="social-medias">
-                <li>
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Twitter (open in a new tab)"><i
-                            class="fa-brands fa-facebook-f"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Twitter (open in a new tab)"><i
-                            class="fa-brands fa-instagram"></i></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/" aria-label="Twitter (open in a new tab)"><i class="fa-brands fa-twitter"></i></a>
-                </li>
-            </ul>
+        <div class="footer-container">
+        <ul class="social-medias">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Twitter (open in a new tab)"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Twitter (open in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Twitter (open in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+        </ul>
         </div>
     </footer>
 
