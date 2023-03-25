@@ -163,7 +163,7 @@ a:hover {
 /* our class - CARDS */
 
 #container-card {
-    height: 100%;
+    height: auto;
     display: flex;
     justify-content: space-around;
     justify-items: center;
@@ -190,7 +190,7 @@ a:hover {
 }
 
 .card {
-    height: 85vh;
+    height: 550px;
     width: 30%;
     text-align: center;
     border: 1.5px solid #c3ae3a;
@@ -218,25 +218,23 @@ button a {
 .btn-our-class {
     position: relative;
     left: 5px;
-    bottom: -15px;
-
+    top: 40px;
+    width: 20%;
     color: #c3ae3a;
     border: 1px solid #c3ae3a;
     padding: 10px 20px;
     cursor: pointer;
-    height: 45px;
     border-radius: 6px;
-    margin: 20px;
     background-color: white;
 }
 
 p {
     color: black;
-    padding: 15px;
+    padding: 10px;
     text-align: justify;
     font-size: 20px;
     line-height: 30px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .book-class a {
@@ -428,13 +426,19 @@ textarea {
 
 @media screen and (max-width: 600px) {
     #title {
-        left: 0;
+        left: 10%;
+        top: 90%;
     }
 
     .card {
         width: 100%;
         height: fit-content;
         margin: 1rem 0;
+    }
+
+    .btn-our-class {
+        position: relative;
+        top: 5px;
     }
 
     textarea {
@@ -447,6 +451,7 @@ textarea {
 
     #footer-flex div {
         width: 100%;
+        padding: 10px;
     }
 
     #header {
@@ -458,7 +463,6 @@ textarea {
         font-size: 13px;
     }
 }
-
 
 @media (max-width: 700px) {
     .menu-button-container {
@@ -508,41 +512,113 @@ textarea {
 
 /* media queries second page */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px){
 
-    #section-second-page {
-        width: 360px;
-    }
-    
     .text-second-page {
-        width: 100%;
-        margin: 0;
-        padding-left: 0;
-    }
-
-    #container-img-crossfit {
-        padding-left: 40px;
-    }
-
-    #container-img-yoga {
-        padding-left: 40px;
-    }
-
-    #container-img-zumba {
-        padding-left: 40px;
+        width: auto;
+        padding-right: 30px;
     }
 
     .second-page-img {
-        width: 270px ;
         height: fit-content;
-        border-radius: 7px;
-    }
-
-    hr {
-        width: 108%;
+        width: 300px;
     }
 
     #section-second-page h3 {
         text-align: center;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px){
+
+    #title {
+        left: 20%;
+        top: 90%;
+    }
+
+    .card {
+        width: 100%;
+        height: fit-content;
+        margin: 1rem 0;
+    }
+
+    .card-body p {
+        font-size: 15px;
+    }
+
+    .btn-our-class {
+        top: 10px;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    #container-card {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .card {
+        height: fit-content;
+    }
+
+    .card-body p {
+        justify-content: center;
+        text-align: center;
+        font-size: 1em;
+        height: 180px;
+    }
+
+    .btn-our-class {
+        top: -20px;
+        font-size: 14px;
+    }
+
+    #zumba-btn {
+        top: -20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #container-card {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .card {
+        height: fit-content;
+    }
+
+    .card-body p {
+        height: 180px;
+        text-align: justify;
+    }
+
+    .btn-our-class {
+        top: -20px;
+        height: 20px;
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .card-body p {
+        font-size: 20px;
+        text-align: justify;
+        padding: 20px;
+        height: 180px;
+    }
+
+    .btn-our-class {
+        top: -35px;
+    }
+
+    #zumba-btn {
+        top: -35px;
     }
 }
