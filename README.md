@@ -10,22 +10,27 @@ And that's exactly what Sisterhood Gym does, a professional environment where wo
 
 <img src="assets/readme_images/readme_resp.png">
 
-## Contents:
-1. [**Site Overview**](#site-overview)
-1. [**Planning & Development**](#planning-stage)
-    * [***Target Audiences***](#target-audiences)
-    * [***User Stories***](#user-stories)
-    * [***Site Aims***](#site-aims)
-    * [***Wireframes***](#wireframes)
-    * [***Color Scheme***](#color-scheme)
-    * [***Typography**](#typography)
-
+# Content
 ## **Planning Stage**
-    With each passing year, we recognize more and more the importance of women in society and the importance of a safe environment for the female audience has become everyone's responsibility. Therefore, the Sisterhood Gym space was created and developed with the aim of protecting women and creating a more fun, light environment in which women not only go to train but also create bonds with other women who are in search of physical and mental health.
 
-    The design was created to show how light and safe it is to train in a 100% female environment, with personal training women, and that working out can be light, fun, and with a lot of professionalism involved. 
-### **Target Audiences:**
-    A Sisterhood visa alcançar que estão convencidas de mulheres que a saúde física e mental é uma prioridade nos dias de hoje.
-    Nosso foco é atingir mulheres de todas as faixas etárias, independentemente de raça ou religião.
-    A Sisterhood é um ambiente com empatia em que cada mulher ajuda uma a outra na busca do corpo ideal.
+With each passing year, we recognize more and more the importance of women in 
+society and the importance of a safe environment for the female audience has 
+become everyone's responsibility. Therefore, the Sisterhood Gym space was created
+environment in which women not only go to train but also create bonds with other 
+women who are in search of physical and mental health.
 
+The design was created to show how light and safe it is to train in a 100% female 
+and developed with the aim of protecting women and creating a more fun, light 
+environment, with personal training women, and that working out can be light, fun, 
+and with a lot of professionalism involved.
+    
+## **Target Audiences**
+- Women of all ages.
+- We respect all cultures.
+- Women looking for physical and mental health.
+
+## **Existing Features**
+
+- __Navigation Bar__
+
+ The site has a 100% responsive and intuitive navigation bar, with 4  options links, the logo, our classes, about us, and contact. The user can change screens in a simple and intuitive way.
