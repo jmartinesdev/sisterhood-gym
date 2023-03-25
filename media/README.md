@@ -34,3 +34,5 @@ and with a lot of professionalism involved.
 - __Navigation Bar__
 
  The site has a 100% responsive and intuitive navigation bar, with 4  options links, the logo, our classes, about us, and contact. The user can change screens in a simple and intuitive way.
+
+ ![Nav bar](https://user-images.githubusercontent.com/123416921/227743607-a9685bab-67dc-4da8-b630-849b7dd42f46.png)
