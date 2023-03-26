@@ -85,13 +85,23 @@ A button is also available for the user to be forwarded to a second page with mo
 
 - __Color Scheme__
 
-Black is the most powerful and neutral color. It tends to be associated with elegance and strength.
-As it is a neutral color, like white, it ends up making the combination with other colors a very simple thing, capable of reflecting different symbologies.
-The color, as it is considered strong, ends up standing out against some backgrounds, making it more legible when reading.
-Its neutrality helps in combining with other colors, conveying different ideas, such as modernity or conservatism, innovation, traditional, elegance, sophistication, etc.
+    Black is the most powerful and neutral color. It tends to be associated with elegance and strength.
+    As it is a neutral color, like white, it ends up making the combination with other colors a very simple thing, capable of reflecting different          symbologies.
+    The color, as it is considered strong, ends up standing out against some backgrounds, making it more legible when reading.
+    Its neutrality helps in combining with other colors, conveying different ideas, such as modernity or conservatism, innovation, traditional, elegance,   sophistication, etc.
 
-Gold is the color of the winner. Want a practical example of this statement? It is this color that represents the first place, so the medals are always in gold, with silver being the second place.
+    Gold is the color of the winner. Want a practical example of this statement? It is this color that represents the first place, so the medals are always in gold, with silver being the second place.
 
-the golden color represents success, achievement, and triumph, also very associated with abundance and prosperity, luxury, prestige, sophistication, value, and elegance. Gold also symbolizes high vibration, vigor, superior intelligence, and nobility, carrying charm and building confidence, offering power, persuasion, energy, and intelligence wherever it goes.
+    The golden color represents success, achievement, and triumph, also very associated with abundance and prosperity, luxury, prestige, sophistication, value, and elegance. Gold also symbolizes high vibration, vigor, superior intelligence, and nobility, carrying charm and building confidence, offering power, persuasion, energy, and intelligence wherever it goes.
 
-For these reasons, we decided on a black (#000) and gold theme (#c3ae3a).
+    For these reasons, we decided on a black (#000) and gold theme (#c3ae3a).
+
+- __Typography__
+
+*  There are two fonts used throughout the site.
+
+    * Oswald: is a professional font that has charm and personality. With such an extensive font family, the serif font can look different in its various weights – yet it always maintains a sense of simple sophistication.
+
+    * Lato: This font has its own charm and elegance.
+
+    The fonts were imported to the stylesheet via Google fonts.
