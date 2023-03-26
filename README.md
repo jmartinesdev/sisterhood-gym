@@ -64,3 +64,5 @@ and with a lot of professionalism involved.
 
 OUR CLASSES is a section to inform the user about the type of classes offered by sisterhood gym. All photos available to users aim to encourage the user to practice and constancy in physical exercises and be fitness.
 A button is also available for the user to be forwarded to a second page with more detailed information regarding each open Sisterhood Gym class.
+
+![Our Classes Image](https://github.com/jmartinesdev/sisterhood-gym/blob/main/our-classes.png)
