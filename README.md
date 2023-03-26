@@ -47,6 +47,8 @@ and with a lot of professionalism involved.
 
     * The first image to be seen by the user aims to motivate the user to explore more and more their limits.
     * The input image shows the user that by controlling your mind, you can overcome all your limits.
-    * Strong women can do whatever they want. Strong women have the power and strength to overcome their limits,
+    * Strong women can do whatever they want. Strong women have the power and strength to overcome their limits.
+
+![Main Image](https://github.com/jmartinesdev/sisterhood-gym/blob/main/main-photo.png)
 
 
