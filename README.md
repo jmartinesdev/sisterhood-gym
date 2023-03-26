@@ -35,4 +35,4 @@ and with a lot of professionalism involved.
 
  The site has a 100% responsive and intuitive navigation bar, with 4  options links, the logo, our classes, about us, and contact. The user can change screens in a simple and intuitive way.
 
-![Nav bar](https://github.com/jmartinesdev/sisterhood-gym/blob/main/media/Nav-Bar.png)
+![Nav bar](https://github.com/jmartinesdev/sisterhood-gym/blob/main/media/nav-bar.png)
