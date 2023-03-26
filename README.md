@@ -33,6 +33,7 @@ and with a lot of professionalism involved.
 
 - __Navigation Bar__
 
- The site has a 100% responsive and intuitive navigation bar, with 4  options links, the logo, our classes, about us, and contact. The user can change screens in a simple and intuitive way.
+*The site has a 100% responsive and intuitive navigation bar, with 4  options links, the logo, our classes, about us, and contact. The user can change screens in a simple and intuitive way.
+*Each navigation link has a hover feature providing visual feedback for the user. Each page has a separate active link which provides the user instant feedback regarding their location on the site.
 
 ![nav-bar](https://github.com/jmartinesdev/sisterhood-gym/blob/main/nav-bar.png)
