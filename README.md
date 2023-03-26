@@ -60,9 +60,23 @@ and with a lot of professionalism involved.
     * To inform the user about what we offer when they are here
     * To offer the user an opportunity to get in contact
 
-- __Our Classes Section__
+- __Our Classes Page__
 
-OUR CLASSES is a section to inform the user about the type of classes offered by sisterhood gym. All photos available to users aim to encourage the user to practice and constancy in physical exercises and be fitness.
+    ** OUR CLASSES ** is a section to inform the user about the type of classes offered by sisterhood gym. All photos available to users aim to encourage the user to practice and constancy in physical exercises and be fitness.
 A button is also available for the user to be forwarded to a second page with more detailed information regarding each open Sisterhood Gym class.
 
 ![Our Classes Image](https://github.com/jmartinesdev/sisterhood-gym/blob/main/our-classes.png)
+
+- __Contact Page__
+
+    * The contact page keeps the user close to registering and having more detailed information about the classes available.
+    * The user will be asked to submit their full name, email address and a text area for questions, suggestions and information.
+    
+![Contact Page](https://github.com/jmartinesdev/sisterhood-gym/blob/main/Contact.png)
+
+- __Footer Page__
+
+    * The footer section includes links to the relevant social media sites. The links will open to a new tab to allow easy navigation for the user.
+    * The footer is essential to the user as it encourages them to keep connected via social media.
+    * The social media links provided will visually prompt users to visit the Sisterhood Gym social media pages with the aim of increasing online following     and visibility.
+    * The Footer is located at the bottom of all four pages of the site with information about opening times and address.
