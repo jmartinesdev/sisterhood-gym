@@ -60,7 +60,7 @@ and with a lot of professionalism involved.
     * To inform the user about what we offer when they are here
     * To offer the user an opportunity to get in contact
 
-- __ Our Classes Section__
+- __Our Classes Section__
 
 OUR CLASSES is a section to inform the user about the type of classes offered by sisterhood gym. All photos available to users aim to encourage the user to practice and constancy in physical exercises and be fitness.
 A button is also available for the user to be forwarded to a second page with more detailed information regarding each open Sisterhood Gym class.
