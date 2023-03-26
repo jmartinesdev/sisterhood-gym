@@ -51,4 +51,12 @@ and with a lot of professionalism involved.
 
 ![Main Image](https://github.com/jmartinesdev/sisterhood-gym/blob/main/main-photo.png)
 
+- __Site Aims__
+
+    * To inform about classes available at Sisterhood.
+    * About our vision regarding care for women and their goals.
+    * Encourage all women to join the SISTERHOOD GYM, regardless of race, culture, or body type. ALL ARE WELCOME.
+    * To inform the user of opening times
+    * To inform the user about what we offer when they are here
+    * To offer the user an opportunity to get in contact
 
