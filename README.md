@@ -82,3 +82,12 @@ A button is also available for the user to be forwarded to a second page with mo
     * The Footer is located at the bottom of all four pages of the site with information about opening times and address.
 
 ![Footer Page](https://github.com/jmartinesdev/sisterhood-gym/blob/main/Footer.png)
+
+## **Color Scheme**
+
+Black is the most powerful and neutral color. It tends to be associated with elegance and strength.
+As it is a neutral color, like white, it ends up making the combination with other colors a very simple thing, capable of reflecting different symbologies.
+The color, as it is considered strong, ends up standing out against some backgrounds, making it more legible when reading.
+Its neutrality helps in combining with other colors, conveying different ideas, such as modernity or conservatism, innovation, traditional, elegance, sophistication, etc.
+
+
