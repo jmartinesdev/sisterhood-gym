@@ -80,3 +80,5 @@ A button is also available for the user to be forwarded to a second page with mo
     * The footer is essential to the user as it encourages them to keep connected via social media.
     * The social media links provided will visually prompt users to visit the Sisterhood Gym social media pages with the aim of increasing online following     and visibility.
     * The Footer is located at the bottom of all four pages of the site with information about opening times and address.
+
+![Footer Page](https://github.com/jmartinesdev/sisterhood-gym/blob/main/Footer.png)
