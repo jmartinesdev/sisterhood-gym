@@ -33,6 +33,18 @@ and with a lot of professionalism involved.
 
 - __Navigation Bar__
 
- The site has a 100% responsive and intuitive navigation bar, with 4  options links, the logo, our classes, about us, and contact. The user can change screens in a simple and intuitive way.
+The site has a 100% responsive and intuitive navigation bar, with 4  options links, the logo, our classes, about us, and contact. The user can change screens in a simple and intuitive way.
 
- ![Nav bar](https://github.com/jmartinesdev/sisterhood-gym/blob/main/media/Nav%20Bar.png)
+Each navigation link has a hover feature providing visual feedback for the user. Each page has a separate active link which provides the user instant feedback regarding their location on the site.
+
+![nav-bar](https://github.com/jmartinesdev/sisterhood-gym/blob/main/nav-bar.png)
+
+- __Sticky Navegation Menu__
+
+    * The sisterhood gym has a small responsive menu that is pinned to the top right of the screen.
+
+    * When the user scrolls down, all four navigation options are available.
+
+    * This menu is highly intuitively designed with the "hamburger" symbol that can be easily recognized by the user.
+
+    
