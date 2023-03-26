@@ -36,3 +36,17 @@ and with a lot of professionalism involved.
  The site has a 100% responsive and intuitive navigation bar, with 4  options links, the logo, our classes, about us, and contact. The user can change screens in a simple and intuitive way.
 
 ![Nav bar](https://github.com/jmartinesdev/sisterhood-gym/blob/main/media/nav-bar.png)
+
+- __Sticky Navigation Menu__
+
+    * The sisterhood gym has a small responsive menu that is pinned to the top right of the screen.
+    * When the user scrolls down, all four navigation options are available.
+    * This menu is highly intuitively designed with the "hamburger" symbol that can be easily recognized by the user.
+
+- __Main Image__
+
+    * The first image to be seen by the user aims to motivate the user to explore more and more their limits.
+    * The input image shows the user that by controlling your mind, you can overcome all your limits.
+    * Strong women can do whatever they want. Strong women have the power and strength to overcome their limits,
+
+
