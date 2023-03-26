@@ -105,3 +105,9 @@ A button is also available for the user to be forwarded to a second page with mo
     * Lato: This font has its own charm and elegance.
 
     The fonts were imported to the stylesheet via Google fonts.
+
+## **Possible Future Features**
+
+   * The site aims to implement Javascript so that the user will be able to schedule their classes online in the future.
+   * To the user have access to content that is dynamically updated, control multimedia, animated images.
+   * it aims to provide videos of online and live classes to users.
