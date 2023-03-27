@@ -151,3 +151,22 @@ The home page desktop performed well, and scored 98 and above for all these spec
 
 The home page desktop performed well, and scored 91 and above for all these specifications:
 - Accessibility, Performance, Best Practices and SEO on Desktop.
+
+# Responsiveness
+
+To test each responsive screen size, google tools were used, with the devices available, these are:
+
+- iPhone SE
+- iPhone XR
+- iPhone 12 Pro
+- Pixel 5
+- Samsung Galaxy S8+
+- Samsung Galaxy S20 Ultra
+- iPad Mini
+- iPad Air
+- Surface Pro 7
+- Surface Duo
+- Galaxy Fold
+- Samsung Galaxy A51/71
+- Nest Hub
+- Nest Hub Max
