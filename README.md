@@ -170,3 +170,13 @@ To test each responsive screen size, google tools were used, with the devices av
 - Samsung Galaxy A51/71
 - Nest Hub
 - Nest Hub Max
+
+# Browser Compatibility
+
+The site was tested in Google Chrome, Microsoft Edge and Safari on desktop.
+
+The site was tested in Google Chrome, Microsoft Edge, and Mozilla Firefox on the desktop. No issues arose during browser testing.  
+
+Appearance, functionality, and responsiveness were largely consistent across browsers. Exceptions include:
+
+- The font appearance completely changes on the safari desktop. I researched this and found this is a common experience. However, on my opinion suits it well, and I did not make any changes.
