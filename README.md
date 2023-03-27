@@ -135,3 +135,19 @@ The website passed all tests using the W3C HTML Validator tool
 The website passed all tests using the W3C CSS Validator tool
 
 ![W3C CSS Validator](https://github.com/jmartinesdev/sisterhood-gym/blob/main/media/CSS%20testing.png)
+
+# Lighthouse
+
+### Lighthouse testing for Homepage (Desktop)
+
+![Lighthouse Testing Desktop](https://github.com/jmartinesdev/sisterhood-gym/blob/main/media/Lighthouse%20Desktop%20Testing.png)
+
+The home page desktop performed well, and scored 98 and above for all these specifications:
+- Accessibility, Performance, Best Practices and SEO on Desktop.
+
+### Lighthouse testing for Homepage (Mobile)
+
+![Lighthouse Testing Mobile](https://github.com/jmartinesdev/sisterhood-gym/blob/main/media/Lighthouse%20Mobile%20Testing.png)
+
+The home page desktop performed well, and scored 91 and above for all these specifications:
+- Accessibility, Performance, Best Practices and SEO on Desktop.
