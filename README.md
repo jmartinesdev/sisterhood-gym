@@ -111,3 +111,17 @@ A button is also available for the user to be forwarded to a second page with mo
    * The site aims to implement Javascript so that the user will be able to schedule their classes online in the future.
    * To the user have access to content that is dynamically updated, control multimedia, animated images.
    * it aims to provide videos of online and live classes to users.
+
+# **Testing**
+
+The website has been tested using the following methods:
+- [Code Validation](#code-validation)
+    - [W3C HTML Validator](#w3c-html-validator) 
+
+- [W3C CSS Validator](#w3c-css-validator)
+- [Lighthouse](#lighthouse)
+- [Responsiveness](#responsiveness)
+
+The website passed all tests using the W3C HTML Validator tool
+
+### Home Page
