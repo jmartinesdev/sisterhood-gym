@@ -426,6 +426,20 @@ textarea {
     line-height: 40px;
 }
 
+@media screen and (max-width: 375px) {
+
+    #container-img h2{
+        position: relative;
+        right: 70px;
+        top: 90%;
+        font-size: 1.2em;
+    }    
+
+    #title {
+        width: 100px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     
     #title {
