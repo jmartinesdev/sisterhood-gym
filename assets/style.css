@@ -9,7 +9,6 @@
     --font-padrao: Lato, sans serif;
     --font: Oswald, sans serif;
     --cor01: #F0C335;
-    --cor03: #F2DE65;
     --cor05: #c3ae3a;
 }
 
@@ -425,8 +424,9 @@ textarea {
 }
 
 @media screen and (max-width: 600px) {
+    
     #title {
-        left: 10%;
+        left: 40%;
         top: 90%;
     }
 
@@ -532,7 +532,7 @@ textarea {
 @media screen and (min-width: 600px) and (max-width: 768px){
 
     #title {
-        left: 20%;
+        left: 10%;
         top: 90%;
     }
 
@@ -553,6 +553,7 @@ textarea {
 }
 
 @media screen and (min-width: 768px){
+
     #container-card {
         width: 100%;
         display: flex;
@@ -582,6 +583,12 @@ textarea {
 }
 
 @media screen and (max-width: 992px) {
+
+    #title {
+        left: 30%;
+        top: 90%;
+    }
+
     #container-card {
         width: 100%;
         display: flex;
