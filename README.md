@@ -122,6 +122,8 @@ The website has been tested using the following methods:
 - [Lighthouse](#lighthouse)
 - [Responsiveness](#responsiveness)
 
+## W3C HTML Validator
+
 The website passed all tests using the W3C HTML Validator tool
 
 ### Home Page
