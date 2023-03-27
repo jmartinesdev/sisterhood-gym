@@ -134,8 +134,8 @@ a:hover {
 #title {
     position: absolute;
     z-index: 9999;
-    font-size: 60px;
-    left: 35%;
+    font-size: 3rem;
+    left: 40%;
     top: 95%;
 }
 
@@ -426,16 +426,6 @@ textarea {
     line-height: 40px;
 }
 
-@media screen and (max-width: 375px) {
-
-    div#title {
-        position: absolute;
-        width: 350px;
-        font-size: 2em;
-        right: 50%;
-    }
-}
-
 @media screen and (max-width: 600px) {
     
     #title {
@@ -525,14 +515,19 @@ textarea {
 
 /* media queries second page */
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 600px){
 
     #container-img h2{
         position: relative;
-        right: 5%;
+        right: 0;
         bottom: 10%;
         font-size: 1.2em;
     }    
+
+    div#title {
+        width: 350px;
+        right: 50%;
+    }
 
     #container-img-crossfit {
         margin: 30px;
@@ -553,7 +548,7 @@ textarea {
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (min-width: 600px){
 
     .text-second-page {
         width: auto;
@@ -570,7 +565,7 @@ textarea {
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 768px){
+@media screen and (max-width: 768px){
 
     #title {
         left: 10%;
@@ -591,19 +586,11 @@ textarea {
         top: 10px;
     }
 
-}
-
-@media screen and (min-width: 768px){
-
     #container-card {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
         height: auto;
-    }
-
-    .card {
-        height: fit-content;
     }
 
     .card-body p {
@@ -623,7 +610,7 @@ textarea {
     }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 900px) {
 
     #title {
         left: 30%;
@@ -647,7 +634,7 @@ textarea {
     }
 
     .btn-our-class {
-        top: -20px;
+        top: 20px;
         height: 20px;
         padding: 10px;
         font-size: 14px;
@@ -661,6 +648,7 @@ textarea {
         left: 5%;
         top: 90%;
         width: 100%;
+        font-size: 50px;
 
     }
 
