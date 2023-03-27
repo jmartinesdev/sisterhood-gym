@@ -116,7 +116,7 @@ A button is also available for the user to be forwarded to a second page with mo
 
 The website has been tested using the following methods:
 - [Code Validation](#code-validation)
-    - [W3C HTML Validator](#w3c-html-validator) 
+- [W3C HTML Validator](#w3c-html-validator) 
 
 - [W3C CSS Validator](#w3c-css-validator)
 - [Lighthouse](#lighthouse)
