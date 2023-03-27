@@ -136,14 +136,14 @@ a:hover {
     z-index: 9999;
     font-size: 60px;
     left: 35%;
-    top: 75%;
+    top: 95%;
 }
 
 #title h2 {
     text-transform: uppercase;
     font-family: var(--font-padrao);
     font-weight: 600;
-    font-size: 70px;
+    font-size: 1em;
     line-height: 80px;
     color: #c3ae3a;
 }
@@ -434,10 +434,6 @@ textarea {
         top: 90%;
         font-size: 1.2em;
     }    
-
-    #title {
-        width: 100px;
-    }
 }
 
 @media screen and (max-width: 600px) {
@@ -533,16 +529,10 @@ textarea {
 
     #container-img h2{
         position: relative;
-        right: 70px;
-        top: 90%;
+        right: 5%;
+        bottom: 10%;
         font-size: 1.2em;
-        width: auto;
     }    
-
-    #title {
-        width: 100px;
-        margin: 30px;
-    }
 
     #container-img-crossfit {
         margin: 30px;
@@ -664,7 +654,7 @@ textarea {
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
     #title {
         position: absolute;
@@ -689,12 +679,3 @@ textarea {
         top: -35px;
     }
 }
-
-@media screen and (min-width: 1440px) {
-
-    #title {
-        position: absolute;
-        left: 5%;
-        top: 90%;
-        width: 100%;
-    }
