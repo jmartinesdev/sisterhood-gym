@@ -529,7 +529,7 @@ textarea {
 
 /* media queries second page */
 
-@media screen and (min-width: 375px) and (max-width: 700px){
+@media screen and (min-width: 375px) {
 
     #container-img h2{
         position: relative;
@@ -664,7 +664,16 @@ textarea {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
+
+    #title {
+        position: absolute;
+        left: 5%;
+        top: 90%;
+        width: 100%;
+
+    }
+
     .card-body p {
         font-size: 20px;
         text-align: justify;
