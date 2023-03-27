@@ -125,3 +125,11 @@ The website has been tested using the following methods:
 The website passed all tests using the W3C HTML Validator tool
 
 ### Home Page
+
+![W3C HTML Validator](https://github.com/jmartinesdev/sisterhood-gym/blob/main/media/html%20testing.png)
+
+## W3C CSS Validator
+
+The website passed all tests using the W3C CSS Validator tool
+
+![W3C CSS Validator](https://github.com/jmartinesdev/sisterhood-gym/blob/main/media/CSS%20testing.png)
