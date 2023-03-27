@@ -689,3 +689,12 @@ textarea {
         top: -35px;
     }
 }
+
+@media screen and (min-width: 1440px) {
+
+    #title {
+        position: absolute;
+        left: 5%;
+        top: 90%;
+        width: 100%;
+    }
