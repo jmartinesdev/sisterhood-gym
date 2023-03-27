@@ -150,7 +150,8 @@ a:hover {
 
 
 .cover-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.729), rgba(0, 0, 0, 0.727)), url('../images/header5.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.729), rgba(0, 0, 0, 0.727)), 
+    url('../images/header5.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
