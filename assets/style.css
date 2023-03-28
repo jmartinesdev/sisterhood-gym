@@ -542,6 +542,32 @@ textarea {
     }
 }
 
+@media screen and (max-width: 600px) {
+    
+    .card {
+        height: 500px;
+    }
+
+    .btn-our-class {
+        position: relative;
+        bottom: 20%;
+    }
+
+    #zumba-btn {
+        position: relative;
+        top: 15px;
+    }
+
+    .second-page-img {
+        height: 250px;
+        width: 250px;
+    }
+
+    #container-img-crossfit {
+        padding-right: 30px;
+    }
+}
+
 /* media queries second page */
 
 
