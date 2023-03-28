@@ -426,7 +426,7 @@ textarea {
     line-height: 40px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     
     #title {
         left: 40%;
@@ -515,7 +515,9 @@ textarea {
 
 /* media queries second page */
 
-@media screen and (min-width: 320px) and (max-width: 600px){
+
+/*
+@media screen and (min-width: 320px){
 
     #container-img h2{
         position: relative;
@@ -548,7 +550,7 @@ textarea {
     }
 }
 
-@media screen and (min-width: 600px){
+@media screen and (max-width: 600px){
 
     .text-second-page {
         width: auto;
@@ -667,3 +669,4 @@ textarea {
         top: -35px;
     }
 }
+*/
