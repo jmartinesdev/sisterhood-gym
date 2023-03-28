@@ -513,6 +513,37 @@ textarea {
     }
 }
 
+@media screen and (min-width: 280px)  {
+    
+    #title {
+        position: absolute;
+        left: 10%;
+    }
+
+    .card {
+        height: 450px;
+    }
+
+    .second-page-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #section-second-page h3 {
+        text-align: center;
+    }
+
+    div#container-img-crossfit {
+        width: 280px;
+    }
+
+    .text-second-page {
+        position: relative;
+        right: 15px;
+        width: 280px;
+    }
+}
+
 /* media queries second page */
 
 
