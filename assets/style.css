@@ -538,9 +538,7 @@ textarea {
     }
 
     .text-second-page {
-        position: relative;
-        right: 15px;
-        width: 280px;
+        padding-right: 25px;
     }
 }
 
