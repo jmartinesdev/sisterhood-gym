@@ -425,13 +425,13 @@ textarea {
 
 @media screen and (min-width: 280px) and (max-width: 600px) {
     #title {
-        font-size: 2.4rem;
+        font-size: 3rem;
     }
 
     #title h2 {
         position: absolute;
         left: -40px;
-        top: 100px;
+        top: 220px;
         line-height: 50px;
     }
 }    
@@ -544,6 +544,20 @@ textarea {
 
     .menu>li:not(:last-child) {
         border-bottom: 1px solid #444;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    #title {
+        font-size: 4.5rem;
+    }
+
+    #title h2 {
+        position: absolute;
+        left: -40px;
+        top: 170px;
+        line-height: 80px;
     }
 }
 /*
