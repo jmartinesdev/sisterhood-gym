@@ -216,18 +216,21 @@ button a {
     color: #c3ae3a;
 }
 
-.btn-our-class {
-    position: relative;
-    left: 5px;
-    top: 40px;
-    width: 20%;
+button {
+
+    font-family: var(--font-padrao);
+    display: inline-block;
+    width: 90px;
+    height: 50px;
+    font-size: 1.1rem;
     color: #c3ae3a;
     border: 1px solid #c3ae3a;
-    padding: 10px 20px;
     cursor: pointer;
     border-radius: 6px;
     background-color: white;
+    margin: 20px;
 }
+
 
 p {
     color: black;
@@ -238,8 +241,10 @@ p {
     margin-top: 10px;
 }
 
-.book-class a {
-    color: #c3ae3a;
+.card-body a {
+    width: 10px;
+    height: 10px;
+    background-color: white;
 }
 
 /* ABOUT US */
@@ -512,7 +517,7 @@ textarea {
         border-bottom: 1px solid #444;
     }
 }
-
+/*
 @media screen and (min-width: 280px)  {
     
     #title {
@@ -541,33 +546,7 @@ textarea {
         padding-right: 25px;
     }
 }
-
-@media screen and (max-width: 600px) {
-    
-    .card {
-        height: 500px;
-    }
-
-    .btn-our-class {
-        position: relative;
-        bottom: 20%;
-    }
-
-    #zumba-btn {
-        position: relative;
-        top: 15px;
-    }
-
-    .second-page-img {
-        height: 250px;
-        width: 250px;
-    }
-
-    #container-img-crossfit {
-        padding-right: 30px;
-    }
-}
-
+*/
 /* media queries second page */
 
 
