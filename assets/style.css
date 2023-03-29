@@ -196,20 +196,20 @@ a:hover {
     text-align: center;
     border: 1.5px solid #c3ae3a;
     border-radius: 10px;
+    color: #c3ae3a;
+    font-size: 1.3rem;
+}
+
+.card-text {
+    text-align: center;
 }
 
 .card-img-top {
     height: auto;
     width: 100%;
-    align-items: center;
     border-radius: 9px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-}
-
-.card-title {
-    color: #c3ae3a;
-    font-size: 25px;
 }
 
 button a {
@@ -231,8 +231,8 @@ button {
     margin: 20px;
 }
 
-
 p {
+    width: 100%;
     color: black;
     padding: 10px;
     text-align: justify;
@@ -297,8 +297,8 @@ p {
 
 /* second page our classes*/
 
+
 #container-crossfit {
-   width: 100%;
    display: flex;
    justify-content: space-around;
    justify-items: center;
@@ -444,9 +444,28 @@ textarea {
         margin: 1rem 0;
     }
 
-    .btn-our-class {
-        position: relative;
-        top: 5px;
+    #container-crossfit {
+        width: auto;
+        margin: 1rem 0;
+    }
+
+    .text-second-page {
+        width: 375px;
+    }
+
+    .text-second-page p {
+        width: auto;
+        padding-right: 2.3rem;
+    }
+
+    #container-img-crossfit {
+        height: auto;
+        margin: 2rem 0;
+    }
+
+    .second-page-img {
+        height: 300px;
+        width: 300px;
     }
 
     textarea {
