@@ -8,7 +8,7 @@ By the way, this is the perfect combination to make women start to have a more a
 
 And that's exactly what Sisterhood Gym does, a professional environment where women can feel safe, respected in search of the perfect body.
 
-<img src="assets/readme_images/readme_resp.png">
+![Responsiveness Screenshot](https://github.com/jmartinesdev/sisterhood-gym/blob/main/media/responsiveness-screen.png)
 
 # Content
 ## **Planning Stage**
