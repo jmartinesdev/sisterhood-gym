@@ -436,7 +436,6 @@ textarea {
     }
 }    
 
-
 @media screen and (max-width: 700px) {
     
     #title {
@@ -459,9 +458,13 @@ textarea {
         width: 375px;
     }
 
+    .text-second-page h3 {
+        text-align: center;
+    }
+
     .text-second-page p {
         width: auto;
-        padding-right: 2.3rem;
+        padding: 1rem;
     }
 
     #container-img-crossfit {
@@ -470,8 +473,9 @@ textarea {
     }
 
     .second-page-img {
-        height: 300px;
-        width: 300px;
+        height: 280px;
+        width: 280px;
+        padding: .5rem;
     }
 
     textarea {
