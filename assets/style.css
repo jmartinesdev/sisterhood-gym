@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    outline: 1px solid red
 }
 
 :root {
@@ -427,7 +428,6 @@ textarea {
     }
 
     #title h2 {
-        position: absolute;
         left: -40px;
         top: 220px;
         line-height: 50px;
@@ -552,7 +552,6 @@ textarea {
     }
 
     #title h2 {
-        position: absolute;
         left: -40px;
         top: 170px;
         line-height: 80px;
@@ -562,7 +561,7 @@ textarea {
 @media only screen and (max-width: 1200px) {
 
     #title h2 {
-        position: relative;
+        position: absolute;
         font-size: 4rem;
         left: -90px;
         top: 90px;
@@ -577,7 +576,6 @@ textarea {
 @media only screen and (max-width: 1280px) {
 
     #title h2 {
-        position: relative;
         font-size: 4rem;
         left: -90px;
         top: 90px;
