@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    outline: 1px solid red
 }
 
 :root {
@@ -187,6 +188,7 @@ a:hover {
 }
 
 .card-body {
+    height: auto;
     padding: 0 5%;
 }
 
@@ -234,7 +236,6 @@ button {
 p {
     width: 100%;
     color: black;
-    padding: 10px;
     text-align: justify;
     font-size: 20px;
     line-height: 30px;
@@ -263,11 +264,6 @@ p {
     background-position: center;
 }
 
-.about-us-text {
-    width: 100%;
-    height: 100%;
-}
-
 #about-us h2 {
     text-align: center;
     font-size: 45px;
@@ -287,7 +283,8 @@ p {
 }
 
 .about-us-text p {
-    padding: 50px;
+    width: fit-content;
+    margin: 30px;
     font-family: var(--font);
     line-height: 35px;
     font-size: 120%;
@@ -301,7 +298,6 @@ p {
 #container-crossfit {
    display: flex;
    justify-content: space-around;
-   justify-items: center;
    margin: 2rem 0;
    flex-wrap: wrap;
 }
@@ -311,24 +307,19 @@ p {
 }
 
 .text-second-page h3 {
-    font-size: 50px;
-    padding: 10px;
-    padding-top: 30px;
-    padding-left: 45px;
+    font-size: 3rem;
     color: #c3ae3a;
     text-align: left;
 }
 
 .text-second-page p {
-    padding-left: 50px;
-    padding-top: 30px;
     line-height: 35px;
+    text-align: justify;
 }
 
 .second-page-img {
     height: 450px;
     width: 450px;
-    padding: 40px;
 }
 
 #container-yoga {
@@ -355,6 +346,7 @@ p {
     height: 100%;
     margin: auto;
     margin-bottom: 30px;
+    max-width: 90%;
 }
 
 .form-contact h2 {
