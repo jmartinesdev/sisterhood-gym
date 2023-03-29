@@ -294,7 +294,6 @@ p {
 
 /* second page our classes*/
 
-
 #container-crossfit {
    display: flex;
    justify-content: space-around;
@@ -560,6 +559,37 @@ textarea {
         line-height: 80px;
     }
 }
+
+@media only screen and (max-width: 1200px) {
+
+    #title h2 {
+        position: relative;
+        font-size: 4rem;
+        left: -90px;
+        top: 90px;
+        line-height: 70px;
+    }
+
+    #container-img-crossfit, #container-img-yoga, #container-img-zumba {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+
+    #title h2 {
+        position: relative;
+        font-size: 4rem;
+        left: -90px;
+        top: 90px;
+        line-height: 70px;
+    }
+
+    #container-img-crossfit, #container-img-yoga, #container-img-zumba {
+        padding: 10px;
+    }
+}
+
 /*
 @media screen and (min-width: 280px)  {
     
