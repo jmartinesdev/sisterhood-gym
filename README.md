@@ -210,7 +210,7 @@ The live link can be found here - https://jmartinesdev.github.io/sisterhood-gym/
 
 - The coding languages used to create this site were HTML and CSS.
 
-## **Credits** 
+# **Credits** 
 
 ### Content
 
