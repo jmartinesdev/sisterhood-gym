@@ -188,3 +188,36 @@ Appearance, functionality, and responsiveness were largely consistent across bro
 - Cause: The #title(ID) was in a relative position and the font size was too big. The button's problem was because it was in absolute position.
 
 - Resolution: The button problem was solved by creating the button attribute and excluding the creation of a button through CSS. And the title I used "rem" to define the font size and in the ID #title absolute position.
+
+## **Tech**
+​
+Here mention what technologies you've used for example
+​
+- HTML
+- CSS
+
+# Deployment
+
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+- From this project's repository, navigate to the settings tab
+- From the left hand menu, select pages.
+- From the source section drop-down menu, select the Main Branch.
+- Once the main branch has been selected, the page will refresh and provide a link to the live project. 
+
+The live link can be found here - https://jmartinesdev.github.io/sisterhood-gym/
+
+# Languages
+
+- The coding languages used to create this site were HTML and CSS.
+
+## **Credits** 
+
+### Content
+
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The Sticky Navigation Menu is derived from snippets of code from this:[Nav Hamburger](https://alvarotrigo.com/blog/hamburger-menu-css/)
+- The link to the favicon icon on all four pages is from: [Favicon](https://favicon.io/)
+
+### Media 
+
+- The following images were aquired from public domain image site: https://www.istockphoto.com/ and Pexels.com.
