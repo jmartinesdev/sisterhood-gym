@@ -181,7 +181,7 @@ Appearance, functionality, and responsiveness were largely consistent across bro
 
 - The font appearance completely changes on the safari desktop. I researched this and found this is a common experience. However, on my opinion suits it well, and I did not make any changes.
 
-## **Bugs**
+# **Bugs**
 
 - Issue: The text "explore your limits" was scrolling horizontally. And it wasn't in the middle of the screen. And another problem was having created a button in CSS styling the <a> attribute.
 
@@ -189,7 +189,7 @@ Appearance, functionality, and responsiveness were largely consistent across bro
 
 - Resolution: The button problem was solved by creating the button attribute and excluding the creation of a button through CSS. And the title I used "rem" to define the font size and in the ID #title absolute position.
 
-## **Tech**
+# **Tech**
 ​
 Here mention what technologies you've used for example
 ​
