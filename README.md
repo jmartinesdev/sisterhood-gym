@@ -180,3 +180,11 @@ The site was tested in Google Chrome, Microsoft Edge, and Mozilla Firefox on the
 Appearance, functionality, and responsiveness were largely consistent across browsers. Exceptions include:
 
 - The font appearance completely changes on the safari desktop. I researched this and found this is a common experience. However, on my opinion suits it well, and I did not make any changes.
+
+## **Bugs**
+
+Problems: The text "explore your limits" was scrolling horizontally. And it wasn't in the middle of the screen. And another problem was having created a button in CSS styling the <a> attribute.
+
+Cause: The #title(ID) was in a relative position and the font size was too big. The button's problem was because it was in absolute position.
+
+Solution: The button problem was solved by creating the button attribute and excluding the creation of a button through CSS. And the title I used "rem" to define the font size and in the ID #title absolute position.
