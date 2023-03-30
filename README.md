@@ -193,8 +193,8 @@ Appearance, functionality, and responsiveness were largely consistent across bro
 ​
 Here mention what technologies you've used for example
 ​
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)(#html-5)
-- [CSS3](https://en.wikipedia.org/wiki/CSS)(#css3)
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 # Deployment
 
