@@ -183,8 +183,8 @@ Appearance, functionality, and responsiveness were largely consistent across bro
 
 ## **Bugs**
 
-Problems: The text "explore your limits" was scrolling horizontally. And it wasn't in the middle of the screen. And another problem was having created a button in CSS styling the <a> attribute.
+- Issue: The text "explore your limits" was scrolling horizontally. And it wasn't in the middle of the screen. And another problem was having created a button in CSS styling the <a> attribute.
 
-Cause: The #title(ID) was in a relative position and the font size was too big. The button's problem was because it was in absolute position.
+- Cause: The #title(ID) was in a relative position and the font size was too big. The button's problem was because it was in absolute position.
 
-Solution: The button problem was solved by creating the button attribute and excluding the creation of a button through CSS. And the title I used "rem" to define the font size and in the ID #title absolute position.
+- Resolution: The button problem was solved by creating the button attribute and excluding the creation of a button through CSS. And the title I used "rem" to define the font size and in the ID #title absolute position.
