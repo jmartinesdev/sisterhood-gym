@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    outline: 1px solid red
 }
 
 :root {
@@ -317,8 +316,8 @@ p {
 }
 
 .second-page-img {
-    height: 450px;
-    width: 450px;
+    height: 430px;
+    width: 430px;
 }
 
 #container-yoga {
@@ -424,12 +423,13 @@ textarea {
 
 @media screen and (min-width: 280px) and (max-width: 600px) {
     #title {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     #title h2 {
-        left: -40px;
-        top: 220px;
+        position: absolute;
+        left: 50px;
+        top: 100px;
         line-height: 50px;
     }
 }    
@@ -467,12 +467,13 @@ textarea {
 
     #container-img-crossfit {
         height: auto;
+        width: 280px;
         margin: 2rem 0;
     }
 
     .second-page-img {
-        height: 280px;
-        width: 280px;
+        height: 250px;
+        width: 250px;
         padding: .5rem;
     }
 
@@ -552,7 +553,8 @@ textarea {
     }
 
     #title h2 {
-        left: -40px;
+        position: absolute;
+        left: -100px;
         top: 170px;
         line-height: 80px;
     }
@@ -561,7 +563,7 @@ textarea {
 @media only screen and (max-width: 1200px) {
 
     #title h2 {
-        position: absolute;
+        position: relative;
         font-size: 4rem;
         left: -90px;
         top: 90px;
@@ -571,15 +573,21 @@ textarea {
     #container-img-crossfit, #container-img-yoga, #container-img-zumba {
         padding: 10px;
     }
+
+    .text-second-page h3 {
+        text-align: center;
+        background-color: #c3ae3a;
+        color: black;
+    }
 }
 
 @media only screen and (max-width: 1280px) {
 
     #title h2 {
-        font-size: 4rem;
-        left: -90px;
+        left: -50px;
         top: 90px;
-        line-height: 75px;
+        font-size: 2.5rem;
+        line-height: 70px;
     }
 
     #container-img-crossfit, #container-img-yoga, #container-img-zumba {
