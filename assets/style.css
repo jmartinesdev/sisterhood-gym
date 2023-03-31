@@ -168,7 +168,7 @@ a:hover {
     display: flex;
     justify-content: space-around;
     justify-items: center;
-    margin: 2rem 0;
+    margin: 4rem 0;
     flex-wrap: wrap;
 }
 
@@ -177,8 +177,7 @@ a:hover {
 }
 
 .heading {
-    padding-bottom: 20px;
-    padding-top: 30px;
+    margin: 2rem 0;
     font-family: var(--font-padrao);
     color: #c3ae3a;
     text-transform: uppercase;
@@ -254,6 +253,7 @@ p {
 }
 
 #container-about-us {
+    justify-content: center;
     height: 60vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
@@ -265,20 +265,22 @@ p {
 
 #about-us h2 {
     text-align: center;
+    padding: 1rem 0;
     font-size: 45px;
     color: #c3ae3a;
-    font-family: var(--font);
+    font-family: var(--font-padrao);
     text-transform: uppercase;
     letter-spacing: 4px;
 }
 
 .about-us-text h3 {
-    font-family: var(--font);
+    text-align: center;
+    font-family: var(--font-padrao);
     text-transform: uppercase;
-    font-size: 35px;
+    font-size: 45px;
     color: #c3ae3a;
     padding: 40px 40px 25px 40px;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
 }
 
 .about-us-text p {
@@ -394,6 +396,7 @@ textarea {
 }
 
 #footer-flex div {
+    padding: 10px;
     width: 30%;
 }
 
